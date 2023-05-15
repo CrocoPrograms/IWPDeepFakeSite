@@ -1,0 +1,42 @@
+.container {
+    padding: 50px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.source {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+}
+
+.previewbox {
+    flex: 1 1 1;
+    background: rgb(2,0,36);
+    background: linear-gradient(164deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 8%, rgba(0,212,255,1) 100%);
+    border: 1px #4d79ff solid;
+    border-radius: 10px; 
+    padding: 5px;
+    box-shadow: 1px; 
+}
